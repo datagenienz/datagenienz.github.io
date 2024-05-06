@@ -3,14 +3,20 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #121925;
-    padding: 5em;
+    padding: 2.5em;
     color: #fff;
     font-family: Tahoma, sans-serif;
     font-size: 105%;
     text-shadow: 1px 1px #000;
 }
 
-  h1 {
+@media (min-width: 600px) {
+    body {
+        padding: 5em;
+    }
+}
+
+h1 {
     font-size: 220%;
     margin-top: 0;
   }
